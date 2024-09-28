@@ -1,0 +1,21 @@
+id,username,password,vatNumber,name,surname,address,phoneNumber,email
+1,george89,sG78t&3Kj5!M,789102345,George,Papadopoulos,Vasilissis Sofias 22,6943012345,gpapadopoulos@mail.com
+2,vicki22,r4V3!2Lq9@Jh,680123456,Vicki,Kalogeropoulou,Syngrou 14,6932123456,vkalogeropoulou@mail.com
+3,nikos23,T4b1R#8Cz@7L,560987654,Nikos,Georgiou,Ermou 9,6989234567,ngeorgiou@mail.com
+4,anna35,a6P2%9Fk#Qh8,478901234,Anna,Petrou,Panepistimiou 30,6912345678,apetrou@mail.com
+5,john5P,E4n$5w1Kj2!R,389012345,John,Katsaros,Stadiou 55,6901234567,jkatsaros@mail.com
+6,maria00,Op!3z7Yr4@5Q,298345678,Maria,Karavidi,Mitropoleos 45,6990123456,mkaravidi@mail.com
+7,steve4x,z3F5!1Lv9@2H,587654321,Steve,Vlachos,Skoufa 67,6976123456,svlachos@mail.com
+8,irene56,M7g3%4Kr!6Tq,876543210,Irene,Lagoumitzi,Akadimias 12,6936123456,ilagoumitzi@mail.com
+9,helen8j,L9d4@7Bm!5Tc,765432109,Helen,Kontou,Peiraios 25,6917123456,hkontou@mail.com
+10,paul9w,s3G5!9Pz@6Mn,654321098,Paul,Anagnostou,Voulis 36,6988123456,panagnostou@mail.com
+11,georgia2,a1C3@7Tp!4Hk,543210987,Georgia,Mpampa,Sokratous 8,6923123456,gmpampa@mail.com
+12,leo43B,d7S2@5Lq!9Kr,432109876,Leo,Pappas,Mitropoleos 2,6909123456,lpappas@mail.com
+13,victor8P,z4F3!6Dk@1Lq,321098765,Victor,Alexiou,Patission 100,6998123456,valexiou@mail.com
+14,katerin7,e2H6@1Rf!4Pq,210987654,Katerina,Karamanli,Ippokratous 40,6911123456,kkaramanli@mail.com
+15,alexi0L,t7G5!2Zr@3Ml,109876543,Alexios,Xanthopoulos,Agias Sofias 10,6935123456,axanthopoulos@mail.com
+16,natalie9,g1C7@8Th!2Mk,987654321,Natalie,Papadaki,Panormou 48,6918123456,npapadaki@mail.com
+17,tommy3v,b6N2@4Vp!3Xk,876543219,Tommy,Kotopoulos,Syntagmatos 7,6989123456,tkotopoulos@mail.com
+18,stella1,s4H3@6Kp!9Tl,765432198,Stella,Kaloudi,Lykavittou 4,6942123456,skaloudi@mail.com
+19,david77,w3F9@2Kr!5Np,654321987,David,Konstantinou,Neas Smirnis 22,6919123456,dkonstantinou@mail.com
+20,zoe4x,v8J5!7Lq@3Cr,543219876,Zoe,Andreadou,Korinthou 3,6927123456,zandreadou@mail.com

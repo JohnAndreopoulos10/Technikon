@@ -1,0 +1,7 @@
+id,propertyId,shortDescription,dateOfSubmission,descriptionOfWork,proposedDateOfStart,proposedDateOfEnd,proposedCost,acceptance,dateOfStart,dateOfEnd,repairType,statusType
+1,2,Painting the living room,10-01-2024,Repaint all walls in the living room,01-02-2024,10-02-2024,1500.00,true,02-02-2024,09-02-2024,PAINTING,COMPLETE
+2,5,Fixing insulation,05-03-2024,Insulate the attic,01-04-2024,05-04-2024,2000.00,false,02-03-2024,09-05-2024,INSULATION,PENDING
+3,10,Replace window frames,20-01-2024,Replace all window frames on the first floor,15-02-2024,20-02-2024,1800.00,true,16-02-2024,18-02-2024,FRAMES,IN_PROGRESS
+4,9,Fix plumbing issue,25-01-2024,Fix leak in the kitchen plumbing,10-02-2024,12-02-2024,500.00,false,16-04-2024,18-05-2024,PLUMBING,COMPLETE
+5,4,Electrical rewiring,01-02-2024,Rewire the basement,01-03-2024,05-03-2024,3000.00,true,02-03-2024,04-03-2024,ELECTRICAL_WORK,COMPLETE
+6,13,Paint exterior walls,15-01-2024,Repaint all exterior walls,20-02-2024,25-02-2024,2500.00,true,21-02-2024,24-02-2024,PAINTING,COMPLETE

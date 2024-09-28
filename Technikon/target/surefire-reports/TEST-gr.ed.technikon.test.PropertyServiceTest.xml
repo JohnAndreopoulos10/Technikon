@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="gr.ed.technikon.test.PropertyServiceTest" time="1.827" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\test-classes;C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\classes;C:\Users\johnr\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\johnr\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\johnr\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\johnr\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\johnr\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\johnr\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\johnr\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\johnr\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\johnr\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\johnr\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\johnr\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\johnr\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\johnr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\johnr\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\johnr\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\johnr\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\johnr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\johnr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332\surefirebooter-20240924233756148_3.jar C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332 2024-09-24T23-37-56_064-jvmRun1 surefire-20240924233756148_1tmp surefire_0-20240924233756148_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\test-classes;C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\classes;C:\Users\johnr\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\johnr\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\johnr\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\johnr\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\johnr\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\johnr\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\johnr\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\johnr\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\johnr\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\johnr\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\johnr\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\johnr\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\johnr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\johnr\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\johnr\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\johnr\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\johnr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\johnr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\johnr"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\johnr\Documents\NetBeansProjects\Technikon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332\surefirebooter-20240924233756148_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="user.name" value="Johnnie"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-22\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\johnr\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\johnr\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="C:\Users\johnr\Documents\NetBeansProjects\Technikon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\Users\johnr\AppData\Local\Microsoft\WindowsApps;C:\Users\johnr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnr\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="findById" classname="gr.ed.technikon.test.PropertyServiceTest" time="1.825">
+    <system-out><![CDATA[23:37:57.494 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+23:37:57.578 [main] DEBUG org.hibernate.jpa.HibernatePersistenceProvider - Located and parsed 1 persistence units; checking each
+23:37:57.578 [main] DEBUG org.hibernate.jpa.HibernatePersistenceProvider - Checking persistence-unit [name=PERSISTENCE, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [PERSISTENCE]
+23:37:57.578 [main] DEBUG org.hibernate.jpa.boot.spi.ProviderChecker - Persistence-unit [PERSISTENCE] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
+23:37:57.584 [main] DEBUG org.hibernate.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: PERSISTENCE
+	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/johnr/Documents/NetBeansProjects/Technikon/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names []
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: com.mysql.jdbc.Driver
+		javax.persistence.jdbc.password: root
+		hibernate.dialect: org.hibernate.dialect.MySQLDialect
+		javax.persistence.jdbc.url: jdbc:mysql://localhost:3306/Technikon
+		hibernate.show_sql: false
+		hibernate.hbm2ddl.auto: create
+		hibernate.format_sql: true
+		javax.persistence.jdbc.user: root]
+23:37:57.588 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.boot.beanvalidation.BeanValidationIntegrator].
+23:37:57.594 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+23:37:57.655 [main] INFO org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+23:37:57.656 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: 'hibernate.properties' not found
+23:37:57.658 [main] WARN org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+23:37:57.658 [main] WARN org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+23:37:57.658 [main] WARN org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+23:37:57.659 [main] WARN org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+23:37:57.672 [main] DEBUG org.hibernate.orm.idgen.factory - Ignoring CDI for resolving IdentifierGenerator instances as extended or delayed CDI support was enabled
+23:37:57.678 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+23:37:57.678 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+23:37:57.679 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+23:37:57.679 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+23:37:57.679 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+23:37:57.681 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+23:37:57.681 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+23:37:57.681 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+23:37:57.682 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+23:37:57.682 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+23:37:57.682 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+23:37:57.683 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+23:37:57.690 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+23:37:57.691 [main] INFO org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@7a389761
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@7a389761
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@7a389761
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@42714a7
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@42714a7
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@19650aa6
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@19650aa6
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@3ce53f6a
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@3ce53f6a
+23:37:57.784 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@2d82408
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@2d82408
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@2d82408
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BasicTypeReference@3ee69ad8
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@3ee69ad8
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BasicTypeReference@3ee69ad8
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@f679798
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@f679798
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.BasicTypeReference@1a6cf771
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BasicTypeReference@59d77850
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@59d77850
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@53ed09e8
+23:37:57.785 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@60859f5a
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@1daf3b44
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@1daf3b44
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@1daf3b44
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.BasicTypeReference@7fd8c559
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.BasicTypeReference@7fd8c559
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@7fd8c559
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@44c13103
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@44c13103
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@44c13103
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@8f2098e
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@8f2098e
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@8f2098e
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@6c6366cf
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@6c6366cf
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@6c6366cf
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@55a88417
+23:37:57.786 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@55a88417
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@18acfe88
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@18acfe88
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.BasicTypeReference@8a2a6a
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.BasicTypeReference@8a2a6a
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@8a2a6a
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@772861aa
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.BasicTypeReference@6631cb64
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@6631cb64
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@19962194
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.BasicTypeReference@481e91b6
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@481e91b6
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.BasicTypeReference@481e91b6
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@7c8f9c2e
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.BasicTypeReference@140d1230
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@3cbf1ba4
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.BasicTypeReference@10bea4
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@10bea4
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@7e2c64
+23:37:57.787 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@7e2c64
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@7c1e32c9
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@383864d5
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@3dd818e8
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@4cb40e3b
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@41b1f51e
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@3a543f31
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@47b67fcb
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@47b67fcb
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@2b9f74d0
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@2b9f74d0
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@65c86db8
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@65c86db8
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@7efe7b87
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@7efe7b87
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@ac20bb4
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@ac20bb4
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@5a2bd7c8
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@7ca8d498
+23:37:57.788 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@7187bac9
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@7187bac9
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@6b8280e6
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@6f139fc9
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@55259aa7
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@19382338
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@19382338
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@66420549
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@15dc339f
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.BasicTypeReference@6cd56321
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@6cd56321
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.BasicTypeReference@34acbc60
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@34acbc60
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@42b28ff1
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@42b28ff1
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@42b28ff1
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@36061cf3
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@36061cf3
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@36061cf3
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@718dbd79
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@20134094
+23:37:57.789 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.BasicTypeReference@76889e60
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@76889e60
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@706fe5c6
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@706fe5c6
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@706fe5c6
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@56380231
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@64f1fd08
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.BasicTypeReference@6b3f6585
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@6b3f6585
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.BasicTypeReference@282ffbf5
+23:37:57.790 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@282ffbf5
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@282ffbf5
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.BasicTypeReference@3e104d4b
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@3e104d4b
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@55e2fe3c
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@55e2fe3c
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@45e1aa48
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@45e1aa48
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@12c60152
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@12c60152
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.BasicTypeReference@2e807c54
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@2e807c54
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration vector -> org.hibernate.type.BasicTypeReference@6cd164a6
+23:37:57.791 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@242a209e
+23:37:57.796 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.JavaObjectType@31ceba99
+23:37:57.796 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@31ceba99
+23:37:57.796 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@4487c0c2
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@126f1ba8
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@3a08078c
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@53830483
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@29f85fe1
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@43a0a32d
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@396ef8b2
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@72825400
+23:37:57.797 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@19ee1ae6
+23:37:57.801 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@5c448433] into BootstrapContext; was [null]
+23:37:57.802 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@fb713e7] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@1b5c3e5f]
+23:37:57.862 [main] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [null]
+23:37:57.862 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was null]
+23:37:57.877 [main] WARN org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+23:37:57.883 [main] INFO org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: com.mysql.jdbc.Driver
+23:37:57.884 [main] INFO org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/Technikon]
+23:37:57.884 [main] INFO org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=root, user=root}
+23:37:57.884 [main] INFO org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+23:37:57.887 [main] DEBUG org.hibernate.orm.connections.pooling - Initializing Connection pool with 1 Connections
+23:37:57.887 [main] INFO org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+23:37:58.176 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+	   name : MySQL
+	version : 9.0.0
+	  major : 9
+	  minor : 0
+23:37:58.176 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+	   name : MySQL Connector/J
+	version : mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+	  major : 8
+	  minor : 0
+23:37:58.176 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.2
+23:37:58.224 [main] WARN org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+23:37:58.224 [main] DEBUG org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 9.0
+23:37:58.229 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+23:37:58.229 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2da81754) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1f992a3a)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30bf26df) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@261bd7b)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6f9e08d4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@390037e7)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@704067c6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7f4596d0)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6002e944) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@588545ac)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b08772d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@78a8978a)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@f171912) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7d4d8579)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@159424e2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@29bcf51d)
+23:37:58.240 [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1e54a6b1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@f238e4f)
+23:37:58.242 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+23:37:58.242 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+23:37:58.242 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+23:37:58.244 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+23:37:58.244 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+23:37:58.246 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@151ab2b9
+23:37:58.246 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Type registration key [null] overrode previous entry : `org.hibernate.type.NullType@4487c0c2`
+23:37:58.249 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+23:37:58.249 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+23:37:58.249 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+23:37:58.251 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+23:37:58.252 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@151732fb] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@729c8063]
+23:37:58.283 [main] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+23:37:58.309 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Binding entity from annotated class: gr.ed.technikon.models.Property
+23:37:58.314 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Import with entity name Property
+23:37:58.318 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Bind entity gr.ed.technikon.models.Property on table Property
+23:37:58.326 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+23:37:58.344 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.345 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Property] is safe
+23:37:58.345 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Property
+23:37:58.347 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property propertyId with lazy=false
+23:37:58.350 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:propertyId]
+23:37:58.353 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for propertyId
+23:37:58.354 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.propertyId
+23:37:58.354 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property propertyId
+23:37:58.356 [main] DEBUG org.hibernate.boot.model.internal.BinderHelper - #makeIdGenerator(BasicValue([Column(propertyId)]), propertyId, identity, , ...)
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property E9 with lazy=false
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:E9]
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for E9
+23:37:58.357 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.E9
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property E9
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property address with lazy=false
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:address]
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for address
+23:37:58.357 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.address
+23:37:58.357 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property address
+23:37:58.358 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn(column='is_deleted')
+23:37:58.358 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property deletedProperty with lazy=false
+23:37:58.358 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:deletedProperty]
+23:37:58.358 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for deletedProperty
+23:37:58.358 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.is_deleted
+23:37:58.358 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property deletedProperty
+23:37:58.359 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='ownerId')
+23:37:58.360 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property owner
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property propertyCode with lazy=false
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:propertyCode]
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for propertyCode
+23:37:58.362 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.propertyCode
+23:37:58.362 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property propertyCode
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property propertyType with lazy=false
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:propertyType]
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for propertyType
+23:37:58.364 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.propertyType
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property propertyType
+23:37:58.364 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.365 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.376 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: IndexColumn(column='repairList_ORDER')
+23:37:58.379 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.379 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn(column='repairList_KEY')
+23:37:58.380 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='repairList_KEY')
+23:37:58.380 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.380 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.381 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Collection role: gr.ed.technikon.models.Property.repairList
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property repairList
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property yearOfConstruction with lazy=false
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Property:yearOfConstruction]
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for yearOfConstruction
+23:37:58.382 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Property.yearOfConstruction
+23:37:58.382 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property yearOfConstruction
+23:37:58.383 [main] DEBUG org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl - HHH000194: Package not found or no package-info.java: gr.ed.technikon.models
+23:37:58.385 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Binding entity from annotated class: gr.ed.technikon.models.Repair
+23:37:58.385 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Import with entity name Repair
+23:37:58.385 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Bind entity gr.ed.technikon.models.Repair on table Repair
+23:37:58.385 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.387 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Repair] is safe
+23:37:58.387 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Repair
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property repairId with lazy=false
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:repairId]
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for repairId
+23:37:58.387 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.repairId
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property repairId
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.BinderHelper - #makeIdGenerator(BasicValue([Column(repairId)]), repairId, identity, , ...)
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property acceptance with lazy=false
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:acceptance]
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for acceptance
+23:37:58.387 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.acceptance
+23:37:58.387 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property acceptance
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property dateOfEnd with lazy=false
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:dateOfEnd]
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for dateOfEnd
+23:37:58.388 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.dateOfEnd
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property dateOfEnd
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property dateOfStart with lazy=false
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:dateOfStart]
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for dateOfStart
+23:37:58.388 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.dateOfStart
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property dateOfStart
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property dateOfSubmission with lazy=false
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:dateOfSubmission]
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for dateOfSubmission
+23:37:58.388 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.dateOfSubmission
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property dateOfSubmission
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property deletedRepair with lazy=false
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:deletedRepair]
+23:37:58.388 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for deletedRepair
+23:37:58.388 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.deletedRepair
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property deletedRepair
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property descriptionOfWork with lazy=false
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:descriptionOfWork]
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for descriptionOfWork
+23:37:58.389 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.descriptionOfWork
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property descriptionOfWork
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='propertyId')
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property property
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property proposedCost with lazy=false
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:proposedCost]
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for proposedCost
+23:37:58.389 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.proposedCost
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property proposedCost
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property proposedDateOfEnd with lazy=false
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:proposedDateOfEnd]
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for proposedDateOfEnd
+23:37:58.389 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.proposedDateOfEnd
+23:37:58.389 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property proposedDateOfEnd
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property proposedDateOfStart with lazy=false
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:proposedDateOfStart]
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for proposedDateOfStart
+23:37:58.390 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.proposedDateOfStart
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property proposedDateOfStart
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property repairStatus with lazy=false
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:repairStatus]
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for repairStatus
+23:37:58.390 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.repairStatus
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property repairStatus
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property repairType with lazy=false
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:repairType]
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for repairType
+23:37:58.390 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.repairType
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property repairType
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property shortDescription with lazy=false
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Repair:shortDescription]
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for shortDescription
+23:37:58.390 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Repair.shortDescription
+23:37:58.390 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property shortDescription
+23:37:58.391 [main] DEBUG org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl - HHH000194: Package not found or no package-info.java: gr.ed.technikon.models
+23:37:58.391 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Binding entity from annotated class: gr.ed.technikon.models.Owner
+23:37:58.391 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Import with entity name Owner
+23:37:58.391 [main] DEBUG org.hibernate.boot.model.internal.EntityBinder - Bind entity gr.ed.technikon.models.Owner on table Owner
+23:37:58.391 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedDiscriminatorColumn(column='DTYPE')
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.392 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Owner] is safe
+23:37:58.392 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Owner
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property OwnerId with lazy=false
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:OwnerId]
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for OwnerId
+23:37:58.392 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.OwnerId
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property OwnerId
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.BinderHelper - #makeIdGenerator(BasicValue([Column(OwnerId)]), OwnerId, identity, , ...)
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property Address with lazy=false
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:Address]
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for Address
+23:37:58.392 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.Address
+23:37:58.392 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property Address
+23:37:58.394 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property Email with lazy=false
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:Email]
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for Email
+23:37:58.395 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.Email
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property Email
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property Name with lazy=false
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:Name]
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for Name
+23:37:58.395 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.Name
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property Name
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property PhoneNumber with lazy=false
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:PhoneNumber]
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for PhoneNumber
+23:37:58.395 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.PhoneNumber
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property PhoneNumber
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property SurName with lazy=false
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:SurName]
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for SurName
+23:37:58.395 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.SurName
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property SurName
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property Username with lazy=false
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:Username]
+23:37:58.395 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for Username
+23:37:58.396 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.Username
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property Username
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property VatNumber with lazy=false
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:VatNumber]
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for VatNumber
+23:37:58.396 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.VatNumber
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property VatNumber
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property deletedOwner with lazy=false
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:deletedOwner]
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for deletedOwner
+23:37:58.396 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.deletedOwner
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property deletedOwner
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - MetadataSourceProcessor property password with lazy=false
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gr.ed.technikon.models.Owner:password]
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - building BasicValue for password
+23:37:58.396 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: Owner.password
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property password
+23:37:58.396 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: IndexColumn(column='propertyList_ORDER')
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn()
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedColumn(column='propertyList_KEY')
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn(column='propertyList_KEY')
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.AnnotatedColumn - Binding column: AnnotatedJoinColumn()
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Collection role: gr.ed.technikon.models.Owner.propertyList
+23:37:58.397 [main] DEBUG org.hibernate.boot.model.internal.PropertyBinder - Building property propertyList
+23:37:58.397 [main] DEBUG org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl - HHH000194: Package not found or no package-info.java: gr.ed.technikon.models
+23:37:58.398 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for propertyId
+23:37:58.398 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for E9
+23:37:58.398 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for address
+23:37:58.399 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for deletedProperty
+23:37:58.399 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for propertyCode
+23:37:58.399 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for propertyType
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for yearOfConstruction
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for repairId
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for acceptance
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for dateOfEnd
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for dateOfStart
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for dateOfSubmission
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for deletedRepair
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for descriptionOfWork
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for proposedCost
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for proposedDateOfEnd
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for proposedDateOfStart
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for repairStatus
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for repairType
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for shortDescription
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for OwnerId
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for Address
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for Email
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for Name
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for PhoneNumber
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for SurName
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for Username
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for VatNumber
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for deletedOwner
+23:37:58.400 [main] DEBUG org.hibernate.boot.model.internal.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for password
+23:37:58.406 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [propertyid] to be non-null as it is part of the primary key for table [property]
+23:37:58.407 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [repairid] to be non-null as it is part of the primary key for table [repair]
+23:37:58.407 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [ownerid] to be non-null as it is part of the primary key for table [owner]
+23:37:58.407 [main] DEBUG org.hibernate.boot.model.internal.CollectionSecondPass - Second pass for collection: gr.ed.technikon.models.Property.repairList
+23:37:58.416 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Binding a OneToMany: gr.ed.technikon.models.Property.repairList through a foreign key
+23:37:58.418 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Mapping collection: gr.ed.technikon.models.Property.repairList -> Repair
+23:37:58.419 [main] DEBUG org.hibernate.boot.model.internal.TableBinder - Retrieving property gr.ed.technikon.models.Repair.property
+23:37:58.420 [main] DEBUG org.hibernate.boot.model.internal.CollectionSecondPass - Mapped collection key: propertyId, one-to-many: gr.ed.technikon.models.Repair
+23:37:58.420 [main] DEBUG org.hibernate.boot.model.internal.CollectionSecondPass - Second pass for collection: gr.ed.technikon.models.Owner.propertyList
+23:37:58.420 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Binding a OneToMany: gr.ed.technikon.models.Owner.propertyList through a foreign key
+23:37:58.420 [main] DEBUG org.hibernate.boot.model.internal.CollectionBinder - Mapping collection: gr.ed.technikon.models.Owner.propertyList -> Property
+23:37:58.421 [main] DEBUG org.hibernate.boot.model.internal.TableBinder - Retrieving property gr.ed.technikon.models.Property.owner
+23:37:58.421 [main] DEBUG org.hibernate.boot.model.internal.CollectionSecondPass - Mapped collection key: ownerId, one-to-many: gr.ed.technikon.models.Property
+23:37:58.490 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+23:37:58.527 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+23:37:58.528 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating SessionFactory with settings: {hibernate.format_sql=true, java.specification.version=21, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\test-classes;C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\classes;C:\Users\johnr\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\johnr\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\johnr\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\johnr\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\johnr\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\johnr\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\johnr\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\johnr\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\johnr\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\johnr\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\johnr\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\johnr\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\johnr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\johnr\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\johnr\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\johnr\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\johnr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\johnr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Athens, javax.persistence.jdbc.url=jdbc:mysql://localhost:3306/Technikon, javax.persistence.jdbc.user=****, java.vm.specification.version=21, os.name=Windows 11, jakarta.persistence.jdbc.password=****, sun.java.launcher=SUN_STANDARD, user.country=GB, local.setting.IS_JTA_TXN_COORD=false, sun.boot.library.path=C:\Program Files\Java\jdk-21\bin, sun.java.command=C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332\surefirebooter-20240924233756148_3.jar C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332 2024-09-24T23-37-56_064-jvmRun1 surefire-20240924233756148_1tmp surefire_0-20240924233756148_2tmp, jdk.debug=release, surefire.test.class.path=C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\test-classes;C:\Users\johnr\Documents\NetBeansProjects\Technikon\target\classes;C:\Users\johnr\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\johnr\.m2\repository\org\hibernate\orm\hibernate-core\6.5.2.Final\hibernate-core-6.5.2.Final.jar;C:\Users\johnr\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\johnr\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\johnr\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\johnr\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\johnr\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\johnr\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\johnr\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\johnr\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\johnr\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\johnr\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\johnr\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\johnr\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\johnr\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\johnr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\johnr\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\johnr\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\johnr\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\johnr\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\johnr\.m2\repository\org\mockito\mockito-junit-jupiter\3.12.4\mockito-junit-jupiter-3.12.4.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\johnr\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\johnr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\johnr\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;, jakarta.persistence.jdbc.driver=com.mysql.jdbc.Driver, sun.cpu.endian=little, user.home=C:\Users\johnr, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2024-04-16, java.home=C:\Program Files\Java\jdk-21, file.separator=\, basedir=C:\Users\johnr\Documents\NetBeansProjects\Technikon, java.vm.compressedOopsMode=Zero based, jakarta.persistence.jdbc.user=****, line.separator=
+, hibernate.persistenceUnitName=PERSISTENCE, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, javax.persistence.jdbc.driver=com.mysql.jdbc.Driver, surefire.real.class.path=C:\Users\johnr\AppData\Local\Temp\surefire15874359616719598332\surefirebooter-20240924233756148_3.jar, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=21.0.3+7-LTS-152, user.name=Johnnie, stdout.encoding=Cp1252, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/Technikon, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=false, maven.ext.class.path=C:\Program Files\NetBeans-22\netbeans\java\maven-nblib\netbeans-eventspy.jar, localRepository=C:\Users\johnr\.m2\repository, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\johnr\AppData\Local\Temp\, java.version=21.0.3, user.dir=C:\Users\johnr\Documents\NetBeansProjects\Technikon, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, jakarta.persistence.jdbc.url=jdbc:mysql://localhost:3306/Technikon, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@6f96dd64, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\Users\johnr\AppData\Local\Microsoft\WindowsApps;C:\Users\johnr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\johnr\AppData\Roaming\npm;., stderr.encoding=Cp1252, java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=21.0.3+7-LTS-152, sun.io.unicode.encoding=UnicodeLittle, javax.persistence.jdbc.password=****, java.class.version=65.0}
+23:37:58.530 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+23:37:58.566 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(max)] under max; prior registration was null
+23:37:58.566 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(min)] under min; prior registration was null
+23:37:58.567 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sum)] under sum; prior registration was null
+23:37:58.567 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(avg)] under avg; prior registration was null
+23:37:58.568 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CountFunction@28b458e6] under count; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@3ec9f8d] under every; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@7e0f9528] under any; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(floor)] under floor; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ceiling)] under ceiling; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(mod)] under mod; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(abs)] under abs; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sign)] under sign; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sqrt)] under sqrt; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ln)] under ln; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(exp)] under exp; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(power)] under power; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(round)] under round; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sin)] under sin; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cos)] under cos; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tan)] under tan; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asin)] under asin; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acos)] under acos; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan)] under atan; prior registration was null
+23:37:58.569 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan2)] under atan2; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7e94e331] under sinh; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@539fc5d1] under cosh; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@4cae66a8] under tanh; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@60b616c8] under pi; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@3962ec84] under log; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(coalesce)] under coalesce; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nullif)] under nullif; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(left)] under left; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(right)] under right; prior registration was null
+23:37:58.570 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(replace)] under replace; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(concat)] under concat; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lower)] under lower; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(upper)] under upper; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substring)] under substring; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(locate)] under locate; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(character_length)] under character_length; prior registration was null
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : length -> character_length
+23:37:58.571 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@71567f33] under position; prior registration was null
+23:37:58.572 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@3855d9b2] under overlay; prior registration was null
+23:37:58.572 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@2cae5fa7] under trim; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@660b1a9d] under cast; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@6fb0261e] under collate; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@7f426ddd] under extract; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@733534f9] under ifnull; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+23:37:58.574 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@621624b1] under pad; prior registration was null
+23:37:58.575 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@32e5af53] under str; prior registration was null
+23:37:58.577 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@1e191150] under format; prior registration was null
+23:37:58.577 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@5323999f] under timestampadd; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@7f51f588] under timestampdiff; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : dateadd -> timestampadd
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : datediff -> timestampdiff
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@19ae36f4] under current_date; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6735f210] under current_time; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@4567fb2b] under current_timestamp; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current date -> current_date
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current time -> current_time
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current timestamp -> current_timestamp
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@372954e1] under local_date; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@5fd8dd66] under local_time; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@173511ff] under local_datetime; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6df11e91] under offset_datetime; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local date -> local_date
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local time -> local_time
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local datetime -> local_datetime
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : offset datetime -> offset_datetime
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@1002d192] under instant; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current_instant -> instant
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@55c50f52] under sql; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(soundex)] under soundex; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cot)] under cot; prior registration was null
+23:37:58.578 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@3962ec84
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log2)] under log2; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log10)] under log10; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(reverse)] under reverse; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(space)] under space; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(repeat)] under repeat; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@216f01] under lpad; prior registration was NamedSqmFunctionTemplate(lpad)
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@7c901203] under rpad; prior registration was NamedSqmFunctionTemplate(rpad)
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(md5)] under md5; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(day)] under day; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(month)] under month; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(year)] under year; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(hour)] under hour; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(minute)] under minute; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(second)] under second; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(microsecond)] under microsecond; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofweek)] under dayofweek; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofmonth)] under dayofmonth; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : day -> dayofmonth
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayofyear)] under dayofyear; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(week)] under week; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(quarter)] under quarter; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(monthname)] under monthname; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(dayname)] under dayname; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_day)] under last_day; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(date)] under date; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(timestamp)] under timestamp; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(time)] under time; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_date)] under utc_date; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_time)] under utc_time; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(utc_timestamp)] under utc_timestamp; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rand)] under rand; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(crc32)] under crc32; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha1)] under sha1; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha2)] under sha2; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sha)] under sha; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_length)] under bit_length; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(octet_length)] under octet_length; prior registration was NamedSqmFunctionTemplate(octet_length)
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ascii)] under ascii; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(instr)] under instr; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1e721583] under position; prior registration was org.hibernate.dialect.function.LocatePositionEmulation@71567f33
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curtime)] under curtime; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(curdate)] under curdate; prior registration was null
+23:37:58.579 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(now)] under now; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TruncFunction@6060146b] under trunc; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : truncate -> trunc
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(insert)] under insert; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@33627576] under bitand; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@27bc1d44] under bitor; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1af677f8] under bitxor; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@7a55fb81] under bitnot; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_and)] under bit_and; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(bit_or)] under bit_or; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev)] under stddev; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_pop)] under stddev_pop; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(stddev_samp)] under stddev_samp; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(variance)] under variance; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_pop)] under var_pop; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(var_samp)] under var_samp; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(datediff)] under datediff; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(adddate)] under adddate; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subdate)] under subdate; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(addtime)] under addtime; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(subtime)] under subtime; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@5a3cf878] under format; prior registration was org.hibernate.dialect.function.FormatFunction@1e191150
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(makedate)] under makedate; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(maketime)] under maketime; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under localtimestamp; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under local_time; prior registration was org.hibernate.dialect.function.CurrentFunction@5fd8dd66
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtimestamp)] under local_datetime; prior registration was org.hibernate.dialect.function.CurrentFunction@173511ff
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(localtime)] under localtime; prior registration was NamedSqmFunctionTemplate(localtime)
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1d2d8846] under pi; prior registration was org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@60b616c8
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@34cd65ac] under chr; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : char -> chr
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@61911947] under sysdate; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+23:37:58.583 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+23:37:58.584 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@762a10b6] under rank; prior registration was null
+23:37:58.584 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@74431b9c] under dense_rank; prior registration was null
+23:37:58.584 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@f2fb225] under percent_rank; prior registration was null
+23:37:58.584 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.HypotheticalSetWindowEmulation@1883871b] under cume_dist; prior registration was null
+23:37:58.584 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggGroupConcatEmulation@240a2619] under listagg; prior registration was null
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - abs(NUMERIC arg)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double acos(NUMERIC arg)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - adddate(DATE datetime, INTEGER days)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - addtime(TIME datetime, TIME time)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean any(BOOLEAN arg)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer ascii(STRING arg)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double asin(NUMERIC arg)
+23:37:58.586 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan2(NUMERIC arg0, NUMERIC arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - avg(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bit_and(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer bit_length(STRING_OR_CLOB arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bit_or(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitand(arg0, arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitnot(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitor(arg0, arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - bitxor(arg0, arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - cast(arg as Type)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ceiling(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character char(INTEGER arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer character_length(STRING_OR_CLOB arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character chr(INTEGER arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - coalesce(arg0[, arg1[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String collate(STRING string as COLLATION collation)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String concat(STRING string0[, STRING string1[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cos(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cosh(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cot(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long count([distinct ]{arg|*})
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer crc32(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cume_dist([arg0[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date curdate()
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current date
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current time
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current timestamp
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current_date
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant current_instant
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current_time
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current_timestamp
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time curtime()
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date date(arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer datediff(DATE end, DATE start)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer day(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String dayname(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer dayofmonth(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer dayofweek(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer dayofyear(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double degrees(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long dense_rank([arg0[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean every(BOOLEAN arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double exp(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - first_valueANY value
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - floor(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String format(TEMPORAL datetime as STRING pattern)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer hour(TIME arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ifnull(arg0, arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String insert(STRING string, INTEGER start, INTEGER length, STRING replacement)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant instant
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer instr(STRING string, STRING pattern[, INTEGER start[, INTEGER occurrence]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - lagANY value[, INTEGER offset[, ANY default]]
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date last_day(DATE arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - last_valueANY value
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - leadANY value[, INTEGER offset[, ANY default]]
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String left(STRING string, INTEGER length)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer length(STRING_OR_CLOB arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String listagg(STRING arg0, STRING arg1)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double ln(NUMERIC arg)
+23:37:58.587 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local date
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local datetime
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local time
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local_date
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local_datetime
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local_time
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp localtime
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp localtimestamp
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer locate(STRING pattern, STRING string[, INTEGER start])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log(NUMERIC arg0[, NUMERIC arg1])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log10(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log2(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lower(STRING string)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lpad(string, length[, padding])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String ltrim(STRING string[, STRING characters])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date makedate(INTEGER year, INTEGER dayofyear)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time maketime(INTEGER hour, INTEGER min, INTEGER sec)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - max(COMPARABLE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String md5(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer microsecond(TIME arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - min(COMPARABLE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer minute(TIME arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer mod(INTEGER arg0, INTEGER arg1)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer month(DATE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String monthname(DATE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp now()
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nth_valueANY value, INTEGER nth
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nullif(arg0, arg1)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer octet_length(STRING_OR_CLOB arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset datetime
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset_datetime
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String overlay(STRING string placing STRING replacement from INTEGER start[ for INTEGER length])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double percent_rank([arg0[, ...]])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double pi
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer position(STRING pattern in STRING string)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double power(NUMERIC arg0, NUMERIC arg1)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer quarter(DATE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double radians(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double rand([INTEGER seed])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long rank([arg0[, ...]])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String repeat(STRING string, INTEGER times)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String replace(STRING string, STRING pattern, STRING replacement)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String reverse(STRING arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String right(STRING string, INTEGER length)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - round(NUMERIC number[, INTEGER places])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long row_number()
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rpad(string, length[, padding])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rtrim(STRING string[, STRING characters])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer second(TIME arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String sha(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String sha1(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String sha2(arg0, arg1)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer sign(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sin(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sinh(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String soundex(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String space(INTEGER arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Object sql
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sqrt(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev_pop(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double stddev_samp(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String str(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - subdate(DATE datetime, INTEGER days)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substr(STRING string, INTEGER start[, INTEGER length])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - subtime(TIME datetime, TIME time)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - sum(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp sysdate()
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double tan(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double tanh(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String time(arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp timestamp(arg0[, arg1])
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long|Double timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - trunc( ... )
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - truncate( ... )
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String upper(STRING string)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date utc_date
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time utc_time
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp utc_timestamp
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double var_pop(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double var_samp(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double variance(NUMERIC arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer week(DATE arg)
+23:37:58.588 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer year(DATE arg)
+23:37:58.594 [main] DEBUG org.hibernate.orm.query.plan.cache - Starting QueryInterpretationCache(2048)
+23:37:58.640 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+23:37:58.642 [main] DEBUG org.hibernate.event.internal.EntityCopyObserverFactoryInitiator - Configured EntityCopyObserver strategy: disallow
+23:37:58.700 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Property#owner` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.700 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Property#owner` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.701 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Property] is safe
+23:37:58.701 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Property
+23:37:58.732 [main] DEBUG org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl - HHH000513: Unable to create the ReflectionOptimizer for [gr.ed.technikon.models.Property]: private accessor [E9]
+23:37:58.734 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Property#owner` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.750 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Repair#property` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.750 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Repair#property` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.750 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Repair] is safe
+23:37:58.750 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Repair
+23:37:58.759 [main] DEBUG org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl - HHH000513: Unable to create the ReflectionOptimizer for [gr.ed.technikon.models.Repair]: private accessor [acceptance]
+23:37:58.759 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `gr.ed.technikon.models.Repair#property` was mapped with LAZY + NO_PROXY but the class was not enhanced
+23:37:58.760 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [gr.ed.technikon.models.Owner] is safe
+23:37:58.760 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gr.ed.technikon.models.Owner
+23:37:58.769 [main] DEBUG org.hibernate.bytecode.internal.bytebuddy.BytecodeProviderImpl - HHH000513: Unable to create the ReflectionOptimizer for [gr.ed.technikon.models.Owner]: private accessor [Address]
+23:37:58.781 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection (re)creation - gr.ed.technikon.models.Owner.propertyList
+23:37:58.782 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection row deletions - gr.ed.technikon.models.Owner.propertyList
+23:37:58.782 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection removals - gr.ed.technikon.models.Owner.propertyList
+23:37:58.782 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection (re)creation - gr.ed.technikon.models.Property.repairList
+23:37:58.782 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection row deletions - gr.ed.technikon.models.Property.repairList
+23:37:58.782 [main] DEBUG org.hibernate.orm.jdbc.mutation - Skipping collection removals - gr.ed.technikon.models.Property.repairList
+23:37:58.802 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting post-init callbacks
+23:37:58.802 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : To-one key - NavigableRole[gr.ed.technikon.models.Property.owner]
+23:37:58.804 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[gr.ed.technikon.models.Property.repairList#{element}]) - element descriptor
+23:37:58.804 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(gr.ed.technikon.models.Property.repairList)#finishInitialization
+23:37:58.804 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(gr.ed.technikon.models.Property.repairList) - key descriptor
+23:37:58.804 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(gr.ed.technikon.models.Property) `staticFetchableList` generator
+23:37:58.804 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : To-one key - NavigableRole[gr.ed.technikon.models.Repair.property]
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(gr.ed.technikon.models.Repair) `staticFetchableList` generator
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[gr.ed.technikon.models.Owner.propertyList#{element}]) - element descriptor
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(gr.ed.technikon.models.Owner.propertyList)#finishInitialization
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(gr.ed.technikon.models.Owner.propertyList) - key descriptor
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(gr.ed.technikon.models.Owner) `staticFetchableList` generator
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[gr.ed.technikon.models.Property.repairList#{element}]) - element descriptor
+23:37:58.805 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[gr.ed.technikon.models.Owner.propertyList#{element}]) - element descriptor
+23:37:58.862 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : p1_0
+23:37:58.863 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(gr.ed.technikon.models.Property)] with identifierForTableGroup [gr.ed.technikon.models.Property] for NavigablePath [gr.ed.technikon.models.Property] 
+23:37:58.872 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@359865a2] with identifierForTableGroup [gr.ed.technikon.models.Property.owner] for NavigablePath [gr.ed.technikon.models.Property.owner] 
+23:37:58.874 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : o1_0
+23:37:58.881 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [gr.ed.technikon.models.Property]
+ |  +-BasicFetch [gr.ed.technikon.models.Property.E9]
+ |  +-BasicFetch [gr.ed.technikon.models.Property.address]
+ |  +-BasicFetch [gr.ed.technikon.models.Property.deletedProperty]
+ |  +-EntityFetchJoinedImpl [gr.ed.technikon.models.Property.owner]
+ |  +-BasicFetch [gr.ed.technikon.models.Property.propertyCode]
+ |  +-BasicFetch [gr.ed.technikon.models.Property.propertyType]
+ |  +-DelayedCollectionFetch [gr.ed.technikon.models.Property.repairList]
+ |  \-BasicFetch [gr.ed.technikon.models.Property.yearOfConstruction]
+
+23:37:58.883 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (p1 : gr.ed.technikon.models.Property) {
+          primaryTableReference : Property as p1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (o1 : gr.ed.technikon.models.Property.owner) {
+              primaryTableReference : Owner as o1_0
+            }
+          }
+        }
+      }
+    }
+
+23:37:58.889 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: gr.ed.technikon.models.Property
+23:37:58.889 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select propertyId from Property where propertyId=?
+23:37:58.890 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert (0): insert into Property (E9,address,is_deleted,ownerId,propertyCode,propertyType,yearOfConstruction) values (?,?,?,?,?,?,?)
+23:37:58.890 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update (0): update Property set E9=?,address=?,is_deleted=?,ownerId=?,propertyCode=?,propertyType=?,yearOfConstruction=? where propertyId=?
+23:37:58.890 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete (0): delete from Property where propertyId=?
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : r1_0
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(gr.ed.technikon.models.Repair)] with identifierForTableGroup [gr.ed.technikon.models.Repair] for NavigablePath [gr.ed.technikon.models.Repair] 
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@793d09e] with identifierForTableGroup [gr.ed.technikon.models.Repair.property] for NavigablePath [gr.ed.technikon.models.Repair.property] 
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : p1_0
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@68821f6] with identifierForTableGroup [gr.ed.technikon.models.Repair.property.owner] for NavigablePath [gr.ed.technikon.models.Repair.property.owner] 
+23:37:58.890 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : o1_0
+23:37:58.890 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [gr.ed.technikon.models.Repair]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.acceptance]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.dateOfEnd]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.dateOfStart]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.dateOfSubmission]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.deletedRepair]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.descriptionOfWork]
+ |  +-EntityFetchJoinedImpl [gr.ed.technikon.models.Repair.property]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.proposedCost]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.proposedDateOfEnd]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.proposedDateOfStart]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.repairStatus]
+ |  +-BasicFetch [gr.ed.technikon.models.Repair.repairType]
+ |  \-BasicFetch [gr.ed.technikon.models.Repair.shortDescription]
+
+23:37:58.891 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (r1 : gr.ed.technikon.models.Repair) {
+          primaryTableReference : Repair as r1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (p1 : gr.ed.technikon.models.Repair.property) {
+              primaryTableReference : Property as p1_0
+              TableGroupJoins {
+                left  join LazyTableGroup (o1 : gr.ed.technikon.models.Repair.property.owner) {
+                  primaryTableReference : Owner as o1_0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: gr.ed.technikon.models.Repair
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select repairId from Repair where repairId=?
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert (0): insert into Repair (acceptance,dateOfEnd,dateOfStart,dateOfSubmission,deletedRepair,descriptionOfWork,propertyId,proposedCost,proposedDateOfEnd,proposedDateOfStart,repairStatus,repairType,shortDescription) values (?,?,?,?,?,?,?,?,?,?,?,?,?)
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update (0): update Repair set acceptance=?,dateOfEnd=?,dateOfStart=?,dateOfSubmission=?,deletedRepair=?,descriptionOfWork=?,propertyId=?,proposedCost=?,proposedDateOfEnd=?,proposedDateOfStart=?,repairStatus=?,repairType=?,shortDescription=? where repairId=?
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete (0): delete from Repair where repairId=?
+23:37:58.891 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : o1_0
+23:37:58.891 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(gr.ed.technikon.models.Owner)] with identifierForTableGroup [gr.ed.technikon.models.Owner] for NavigablePath [gr.ed.technikon.models.Owner] 
+23:37:58.891 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [gr.ed.technikon.models.Owner]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.Address]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.Email]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.Name]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.PhoneNumber]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.SurName]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.Username]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.VatNumber]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.deletedOwner]
+ |  +-BasicFetch [gr.ed.technikon.models.Owner.password]
+ |  \-DelayedCollectionFetch [gr.ed.technikon.models.Owner.propertyList]
+
+23:37:58.891 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (o1 : gr.ed.technikon.models.Owner) {
+          primaryTableReference : Owner as o1_0
+        }
+      }
+    }
+
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: gr.ed.technikon.models.Owner
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select OwnerId from Owner where OwnerId=?
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert (0): insert into Owner (Address,Email,Name,PhoneNumber,SurName,Username,VatNumber,deletedOwner,password) values (?,?,?,?,?,?,?,?,?)
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update (0): update Owner set Address=?,Email=?,Name=?,PhoneNumber=?,SurName=?,Username=?,VatNumber=?,deletedOwner=?,password=? where OwnerId=?
+23:37:58.891 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete (0): delete from Owner where OwnerId=?
+23:37:58.892 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : pl1_0
+23:37:58.892 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@12a6e8ed] with identifierForTableGroup [gr.ed.technikon.models.Owner.propertyList] for NavigablePath [gr.ed.technikon.models.Owner.propertyList] 
+23:37:58.892 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(gr.ed.technikon.models.Owner.propertyList.{element})] with identifierForTableGroup [gr.ed.technikon.models.Owner.propertyList.{element}] for NavigablePath [gr.ed.technikon.models.Owner.propertyList.{element}] 
+23:37:58.897 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@59f76e56] with identifierForTableGroup [gr.ed.technikon.models.Owner.propertyList.{element}.owner] for NavigablePath [gr.ed.technikon.models.Owner.propertyList.{element}.owner] 
+23:37:58.899 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-CollectionDomainResult [gr.ed.technikon.models.Owner.propertyList]
+
+23:37:58.899 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        OneToManyTableGroup (pl1 : gr.ed.technikon.models.Owner.propertyList) {
+          primaryTableReference : Property as pl1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (o1 : gr.ed.technikon.models.Owner.propertyList.{element}.owner) {
+            }
+          }
+        }
+      }
+    }
+
+23:37:58.899 [main] DEBUG org.hibernate.orm.jdbc.mutation - Static SQL for collection: gr.ed.technikon.models.Owner.propertyList
+23:37:58.899 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : rl1_0
+23:37:58.899 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@208e5b23] with identifierForTableGroup [gr.ed.technikon.models.Property.repairList] for NavigablePath [gr.ed.technikon.models.Property.repairList] 
+23:37:58.899 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(gr.ed.technikon.models.Property.repairList.{element})] with identifierForTableGroup [gr.ed.technikon.models.Property.repairList.{element}] for NavigablePath [gr.ed.technikon.models.Property.repairList.{element}] 
+23:37:58.899 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@2bcb1414] with identifierForTableGroup [gr.ed.technikon.models.Property.repairList.{element}.property] for NavigablePath [gr.ed.technikon.models.Property.repairList.{element}.property] 
+23:37:58.900 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-CollectionDomainResult [gr.ed.technikon.models.Property.repairList]
+
+23:37:58.900 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        OneToManyTableGroup (rl1 : gr.ed.technikon.models.Property.repairList) {
+          primaryTableReference : Repair as rl1_0
+          TableGroupJoins {
+            left  join LazyTableGroup (p1 : gr.ed.technikon.models.Property.repairList.{element}.property) {
+            }
+          }
+        }
+      }
+    }
+
+23:37:58.900 [main] DEBUG org.hibernate.orm.jdbc.mutation - Static SQL for collection: gr.ed.technikon.models.Property.repairList
+23:37:58.924 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+23:37:58.924 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+23:37:58.928 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:37:58.928 [main] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:37:58.928 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@151732fb] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@1255de25]
+23:37:58.929 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named HQL queries
+23:37:58.929 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named SQL queries
+23:37:58.945 [main] DEBUG org.hibernate.SQL - 
+    alter table Property 
+       drop 
+       foreign key FKpcmulxog5hicvj13ktvrknyyq
+23:37:58.946 [main] INFO org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79295932] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:37:58.986 [main] DEBUG org.hibernate.SQL - 
+    alter table Repair 
+       drop 
+       foreign key FKpbiknw5yocye59jxhdjk2qiyr
+23:37:58.998 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Owner
+23:37:59.011 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Property
+23:37:59.022 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Repair
+23:37:59.044 [main] DEBUG org.hibernate.SQL - 
+    create table Owner (
+        deletedOwner bit not null,
+        OwnerId bigint not null auto_increment,
+        VatNumber bigint,
+        Address varchar(255) not null,
+        Email varchar(255) not null,
+        Name varchar(255) not null,
+        PhoneNumber varchar(255) not null,
+        SurName varchar(255) not null,
+        Username varchar(255) not null,
+        password varchar(255) not null,
+        primary key (OwnerId)
+    ) engine=InnoDB
+23:37:59.044 [main] INFO org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@c4551c6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+23:37:59.065 [main] DEBUG org.hibernate.SQL - 
+    create table Property (
+        is_deleted bit,
+        propertyType tinyint check (propertyType between 0 and 2),
+        yearOfConstruction integer not null,
+        E9 bigint not null,
+        ownerId bigint,
+        propertyCode bigint not null,
+        propertyId bigint not null auto_increment,
+        address varchar(255),
+        primary key (propertyId)
+    ) engine=InnoDB
+23:37:59.082 [main] DEBUG org.hibernate.SQL - 
+    create table Repair (
+        acceptance bit,
+        deletedRepair bit not null,
+        proposedCost decimal(38,2),
+        repairStatus tinyint check (repairStatus between 0 and 3),
+        repairType tinyint check (repairType between 0 and 4),
+        dateOfEnd datetime(6),
+        dateOfStart datetime(6),
+        dateOfSubmission datetime(6),
+        propertyId bigint,
+        proposedDateOfEnd datetime(6),
+        proposedDateOfStart datetime(6),
+        repairId bigint not null auto_increment,
+        descriptionOfWork varchar(255),
+        shortDescription varchar(255),
+        primary key (repairId)
+    ) engine=InnoDB
+23:37:59.100 [main] DEBUG org.hibernate.SQL - 
+    alter table Owner 
+       add constraint UKnjfe50ujjl531aapemveyplwh unique (VatNumber)
+23:37:59.114 [main] DEBUG org.hibernate.SQL - 
+    alter table Owner 
+       add constraint UKj6p8u5alt2nf7towe5bi668ux unique (Email)
+23:37:59.125 [main] DEBUG org.hibernate.SQL - 
+    alter table Property 
+       add constraint FKpcmulxog5hicvj13ktvrknyyq 
+       foreign key (ownerId) 
+       references Owner (OwnerId)
+23:37:59.177 [main] DEBUG org.hibernate.SQL - 
+    alter table Repair 
+       add constraint FKpbiknw5yocye59jxhdjk2qiyr 
+       foreign key (propertyId) 
+       references Property (propertyId)
+23:37:59.235 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1d9af731
+23:37:59.235 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: 6236ea0d-b1a8-40cb-a9c3-e6c1a242f9ba (<unnamed>)
+23:37:59.235 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+23:37:59.235 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated SessionFactory
+23:37:59.261 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+]]></system-out>
+    <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: gr.ed.technikon.test.PropertyServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.827 s -- in gr.ed.technikon.test.PropertyServiceTest
